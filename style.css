@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-texting-heading:font-family: 'Montserrat', sans-serif;
+  --ff-menssage:font-family: 'Dancing Script', cursive;
+  --ff-texting-button:font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  height: 100vh;
+}
+
+body,button {
+  font-family: var(--ff-texting-button);
+}
+
+main {
+  width: 42.8rem;
+  height: auto;
+
+  background: #FFFFFF;
+  box-shadow: .0rem 2.0rem 5.0rem rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  margin: 23.9rem auto 31.9rem;
+  padding: 4.8rem 6.4rem;
+
+  
+}
+
+.screen1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30.0rem;
+  height: 31.2rem;
+
+}
+
+.hide {
+  display: none;
+}
+
+
+h1 {
+  font-family: var(--ff-texting-heading);
+  font-weight:700;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #34355B;
+  padding: 0 2.0rem;
+  width: 25.8rem;
+  margin-bottom: 1.4rem;
+ 
+}
+
+p {
+  font-family: var(--ff-texting-button);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.0rem;
+  margin-bottom: 2.0rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#btn {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#btn:hover {
+  animation: tremor 0.4s ease-in-out infinite;
+}
+
+@keyframes tremor {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(2deg);
+  }
+  40% {
+    transform: rotate(-1deg);
+  }
+  60% {
+    transform: rotate(2deg);
+  }
+  80% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+.screen2 {
+  height: auto;
+  text-align: center;
+
+}
+
+.phrasesOfCookie {
+  background: #E4EDF1;
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+  padding: 1.0rem;
+  border: 1px dashed blue;
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+  margin-bottom: 1.7rem;
+ 
+}
+
+.sorte {
+  animation: sorte 2s;
+
+
+}
+
+@keyframes sorte {
+  0% {
+    transform:
+    translateY(150px)
+    scale(0.1);
+
+  }
+
+  100% {
+    transform:
+    translateY(0px)
+    scale(1);
+  }
+}
+
+button {
+  width: 17.4rem;
+  height: 5.2rem;
+  border: 0;
+  background: #FF9500;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-family: var(--ff-texting-button);
+  font-size: 1.5rem;
+  line-height: 2.0rem;
+  margin-top: 1.7rem;
+  cursor: pointer;
+}
+
