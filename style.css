@@ -77,12 +77,12 @@ img {
   height: auto;
 }
 
-#btn {
+#btnClick {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 
-#btn:hover {
+#btnClick:hover {
   animation: tremor 0.4s ease-in-out infinite;
 }
 
